@@ -1,0 +1,23 @@
+# Core dependencies for Nova HR Assistant
+langchain
+langgraph
+langchain-google-genai
+langchain-groq
+python-dotenv
+
+# File parsing dependencies
+PyPDF2
+python-docx
+pdfplumber
+
+# Development dependencies
+pytest
+pytest-asyncio
+black
+flake8
+mypy
+
+# UI dependencies
+streamlit>=1.36
+streamlit-extras>=0.4.0
+plotly>=5.22
